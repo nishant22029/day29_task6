@@ -1,0 +1,47 @@
+#box1_1>input{
+    border-radius: 10px;
+    width: 30%;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    border: 4px solid aqua;
+
+}
+
+#box1_2>input{
+    border-radius: 10px;
+    width: 30%;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    background-color: rgb(157, 240, 240);
+
+}
+#box2>input{
+    border-radius: 10px;
+    width: 30%;
+    padding-top:20px ;
+    padding-bottom:20px ;
+    }
+#box2>input:hover{
+    background-color: rgb(157, 240, 240);
+}
+#box3>input{
+   
+    width: 23%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top:0px solid white ;
+    border-left:  0px solid white;
+    border-right:0px solid white;
+}
+#box4>input{
+    width: 23%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius:10px ;
+    border: 5px solid;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove{
+    50%{ border-color: rgb(9, 59, 59);}
+}
+ 
